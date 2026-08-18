@@ -1,5 +1,7 @@
 # 🍊 Kumquat-Gotchi: Il Tamagotchi per Piante su CYD 2.8"
 
+<img src="kumquat-gotchi.jpg" width="400">
+
 Trasforma il monitoraggio della tua pianta in un simpatico Tamagotchi interattivo! 
 Questo progetto usa un **Cheap Yellow Display (CYD) da 2.8"** (ESP32-2432S028R) e un sensore Bluetooth **Xiaomi Mi Flora / Flower Care** per leggere i parametri vitali di un mandarino cinese (o qualsiasi altra pianta) e mostrare faccine diverse a seconda delle sue necessità.
 
