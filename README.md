@@ -27,3 +27,14 @@ Il progetto è sviluppato su **PlatformIO** (VS Code) sfruttando il core Arduino
    ```cpp
    const char* SECRET_SSID = "IL_TUO_WIFI";      
    const char* SECRET_PASS = "LA_TUA_PASSWORD";
+
+Nel file main.cpp, modificate la variabile miFloraMac inserendo l'indirizzo MAC del vostro sensore Xiaomi.
+
+Caricate le vostre immagini (felice.bmp, sete.bmp, ecc.) nella memoria SPIFFS del CYD tramite l'apposito tool di PlatformIO.
+
+Compilate e caricate il codice!
+
+📌 Note Tecniche
+Il touchscreen XPT2046 in questo progetto è stato disabilitato via software (-D TOUCH_CS=-1 nel platformio.ini) in quanto non necessario, risparmiando risorse.
+
+Assicuratevi di inserire nel CYD una scheda MicroSD funzionante se decidete di spostare la lettura dei file BMP dallo SPIFFS alla SD (il codice attuale è ottimizzato per la memoria interna SPIFFS).
